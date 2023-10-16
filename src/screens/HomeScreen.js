@@ -32,7 +32,6 @@ const HomeScreen = () => {
   //   },[canGoBack])
   return (
     <View style={styles.container}>
-      <Text>hello</Text>
       <WebView
           ref={webviewref}
           source={{ uri:'https://app.continuakids.com'}}

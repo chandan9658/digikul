@@ -15,11 +15,11 @@ const LoginScreen = ({ navigation }) => {
     setIsPassword(false)
     setMultipleAccount(true)
     setIsEmail(false)
-    let body='sanjeevkumar908@digikul.in'
-  //   body ={
-  //     "username": "+917291987007",
-  //     "pswd": "719855e8f4ebd94341277b0b0d50b75c5187133f"
-  // }
+    // let body='sanjeevkumar908@digikul.in'
+    body ={
+      "username": "+917291987007",
+      "pswd": "719855e8f4ebd94341277b0b0d50b75c5187133f"
+  }
     let header=null
      try {
       console.log('hi')
@@ -38,14 +38,14 @@ const LoginScreen = ({ navigation }) => {
       "pswd": "719855e8f4ebd94341277b0b0d50b75c5187133f"
     }
     let header = null;
-    // try {
-    //   console.log('hi')
-    //   let response = await executePostRequest('validCredential', header, body);
-    //   console.log('hello')
-    //   console.log('test', response)
-    // } catch (e) {
-    //   console.log('error2 -', e)
-    // }
+    try {
+      console.log('hi')
+      let response = await executePostRequest('validCredential', header, body);
+      console.log('hello')
+      console.log('test', response)
+    } catch (e) {
+      console.log('error2 -', e)
+    }
     // setIsPassword(false)
     // setMultipleAccount(true)
     // setIsEmail(false)
